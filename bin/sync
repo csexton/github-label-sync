@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -e
+source .env
+./node_modules/.bin/github-label-sync --allow-added-labels $1
